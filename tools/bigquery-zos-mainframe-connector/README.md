@@ -216,3 +216,5 @@ Common LOAD_STATISTIC columns include:
 - timestamp
 - job_id
 - job_type
+
+**Note**: If you would like more infromation related to Mainframe Connector or need anyhelp, please contact us at mainframe@google.com
