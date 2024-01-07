@@ -1,6 +1,8 @@
 # Google BigQuery z/OS Mainframe Connector (gszutil)
 This utility provides gsutil and bq equivalent utilities for IBM mainframes running z/OS. These functionalitites are ideal for Data Warehouse migration to BigQuery.
 
+**Important note**: Mainframe Connector is actively being developed and maintained by Google Cloud Engineering team. if you would like to get the latest Mainframe Connector release, need some help, like to learn more about the latest updates or anything else related to Mainframe Connector, please contact us at mainframe@google.com
+
 gszutil runs using IBM's jzos Java SDK and provides a shell emulator that accepts gsutil and bq command-line invocations via JCL in-stream dataset. It attempts to accept arguments that appear similar to the official command-line utilties.
 
 The utility is deployed as a cataloged procedure called by the [JCL EXEC statement](https://www.ibm.com/docs/en/zos/2.3.0?topic=jcl-exec-statement).
